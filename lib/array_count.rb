@@ -1,5 +1,7 @@
 def count_strings(array)
-  array.count {|new_array| new_array.is_a?(String)}
+  results = array.count {|new_array| new_array.is_a?(String)}
+  print ("Found #{results} string in array")
+
 
 
 
